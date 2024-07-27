@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterInv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-inv@deno/mod.js';
+import iterInv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-inv@v0.2.2-deno/mod.js';
 ```
 
 #### iterInv( iterator )
@@ -109,7 +109,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@deno/mod.js';
-import iterInv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-inv@deno/mod.js';
+import iterInv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-inv@v0.2.2-deno/mod.js';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = randu({
